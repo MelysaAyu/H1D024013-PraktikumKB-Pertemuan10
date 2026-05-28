@@ -28,10 +28,10 @@ Pemilik toko ingin memilih barang yang memberikan keuntungan maksimal tanpa mele
 
 ## 🧬 Parameter Algoritma Genetika (berdasarkan NIM)
 
-Dua digit terakhir NIM = **13**   
-Digit pertama (1) → **Seleksi: Tournament Selection (TS)**  
-Digit kedua (3) → **Crossover: One Point**  
-Jumlah digit (1+3=4) → **Mutasi: Inversion**  
+Dua digit terakhir NIM = **13**     
+Digit pertama (1) → **Seleksi: Tournament Selection (TS)**    
+Digit kedua (3) → **Crossover: One Point**    
+Jumlah digit (1+3=4) → **Mutasi: Inversion**    
 
 | Parameter         | Nilai                         |
 |-------------------|-------------------------------|
@@ -50,40 +50,41 @@ Jumlah digit (1+3=4) → **Mutasi: Inversion**
    ```bash
    pip install matplotlib
 3. **Jalankan program:** genetic_knapsack py
-    Klik tombol "Jalankan Algoritma Genetika" – program akan berjalan otomatis.  
-    Hasil akan muncul di bagian bawah, lengkap dengan grafik evolusi fitness.  
+4. **Klik tombol "Jalankan Algoritma Genetika"** 
+    program akan berjalan otomatis.  
+    Hasil akan muncul di bagian bawah, lengkap dengan grafik evolusi fitness.    
 
 ---
 
 ## 📈 Hasil Output (Contoh dari Program)
-Setelah menjalankan program, diperoleh solusi terbaik sebagai berikut:  
-Solusi terbaik:  
-Barang terpilih: Barang2, Barang4, Barang5  
-Total Keuntungan: 125  
-Total Ukuran: 14 / 15  
-Berikut tampilan GUI program beserta grafik fitness:  
+Setelah menjalankan program, diperoleh solusi terbaik sebagai berikut:    
+Solusi terbaik:    
+Barang terpilih: Barang2, Barang4, Barang5    
+Total Keuntungan: 125    
+Total Ukuran: 14 / 15    
+Berikut tampilan GUI program beserta grafik fitness:    
 
 ![gui](gui.png)
 
-**Penjelasan:**
-Barang2 (profit 40, ukuran 4)  
-Barang4 (profit 50, ukuran 3)  
-Barang5 (profit 35, ukuran 7)  
-Total profit = 40+50+35 = 125, total ukuran = 4+3+7 = 14 (masih dalam kapasitas 15).  
+**Penjelasan:**  
+Barang2 (profit 40, ukuran 4)    
+Barang4 (profit 50, ukuran 3)    
+Barang5 (profit 35, ukuran 7)    
+Total profit = 40+50+35 = 125, total ukuran = 4+3+7 = 14 (masih dalam kapasitas 15).    
 
-**Grafik Evolusi Fitness**
-Garis hijau (Best Fitness): nilai fitness terbaik tiap generasi.  
-Garis oranye (Avg Fitness): rata-rata fitness populasi tiap generasi.  
-Terlihat bahwa fitness meningkat seiring generasi hingga mencapai maksimum 125.  
+**Grafik Evolusi Fitness**  
+Garis hijau (Best Fitness): nilai fitness terbaik tiap generasi.    
+Garis oranye (Avg Fitness): rata-rata fitness populasi tiap generasi.    
+Terlihat bahwa fitness meningkat seiring generasi hingga mencapai maksimum 125.    
 
 ---
 
 ## 📁 Struktur Repositori
-text
-H1D024013-PraktikumKB-Pertemuan10/
-├── genetic_knapsack.py      # Source code utama  
-├── gui.png                  # Screenshot hasil eksekusi  
-└── README.md                # Penjelasan   
+
+H1D024013-PraktikumKB-Pertemuan10/  
+├── genetic_knapsack.py      # Source code utama    
+├── gui.png                  # Screenshot hasil eksekusi    
+└── README.md                # Penjelasan     
 
 ---
 
